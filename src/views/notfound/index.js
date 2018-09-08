@@ -2,9 +2,13 @@ import React from 'react'
 
 import Layout from '../../components/Layout'
 
+import { Container, Title } from './styles'
+
 const NotFound = () => (
   <Layout>
-    <h1>Page not found.</h1>
+    <Container>
+      <Title>Page not found.</Title>
+    </Container>
   </Layout>
 )
 
